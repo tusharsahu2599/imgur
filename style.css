@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Proxima Nova ExtraBold, Helvetica Neue, Helvetica, Arial,
+      sans-serif;
+      /* background-color: rgb(23, 21, 68); */
+    
+  }
+  .navBar {
+    overflow: hidden;
+  
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    height: 66px;
+    background-color: darkslategray;
+  }
+  .navBar-left {
+    display: flex;
+  }
+  .logo-btn {
+    margin: 0px 20px;
+  }
+  .logo-btn button {
+    width: 120px;
+    height: 35px;
+    background-color: #1bb76e;
+    border: none;
+    color: white;
+    padding: 7px 11px 10px 9px;
+    border-radius: 4px;
+  }
+  .navlogo {
+    width: 100px;
+  }
+  .navlogo img {
+    width: 100%;
+  }
+  .logo {
+    width: 100px;
+  }
+  .searchBar input {
+    background: hsla(0, 0%, 100%, 0.25);
+    border: 1px solid transparent;
+    padding: 8px 35px 8px 10px;
+    border-radius: 3px;
+    width: 550px;
+    outline: 0 none;
+    opacity: 0.8;
+    min-height: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: #fff;
+  }
+  .navBar-right {
+    display: flex;
+  }
+  .icon {
+    color: white;
+    size: 15px;
+    height: 15px;
+    font-size: 24px;
+  }
+  .purple {
+    color: white;
+  
+    margin: 0.5px 16px 0.5px 0px;
+  }
+  .purple button {
+    background-color: #6432f9;
+    width: 95px;
+    height: 35px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .signUp {
+    color: white;
+    font: 15px;
+    margin: 0.5px 1px 0.5px 0px;
+  }
+  .signUp button {
+    background-color: #1bb76e;
+    width: 95px;
+    height: 35px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 700;
+  }
+  .signIn {
+    color: white;
+    font: 15px;
+    margin: 0.5px 10px 0.5px 0px;
+  }
+  .signIn button {
+    background-color: transparent;
+    width: 95px;
+    height: 35px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 700;
+  }
+  .middle {
+    background-color: rgb(23, 21, 68);
+    text-align: center;
+    position: relative;
+    top: 66px;
+    width: 100%;
+  }
+  .middle > .message {
+    font-size: 24px;
+    font-family: Proxima Nova ExtraBold, Helvetica Neue, Helvetica, Arial,
+      sans-serif;
+    letter-spacing: 0.6px;
+    color: #aed8ea;
+    text-align: center;
+  
+    min-height: 34px;
+    position: relative;
+    padding: 25px 0px;
+  }
+  .tags {
+    display: flex;
+    flex-direction: column;
+  }
+  .tag_header {
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 1.3px;
+  }
+  .tag_header > .h {
+    margin: 75px;
+    display: inline-block;
+    color: white;
+  }
+  .tag_grid {
+    margin: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .each_tag {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 3px;
+    background-color: rgba(121, 67, 200, 0.8);
+    background-size: auto 115px;
+    background-repeat: repeat-x;
+    background-position: 100% 0;
+    transition: transform 0.3s;
+    margin: 6px 6px 0px;
+    height: 130px;
+    width: 232px;
+  }
+  .tag_title {
+    font-family: Proxima Nova Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(0, 130, 97);
+  }
+  /* .to_hide {
+    display: none;
+  } */
+  .tag_name {
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.4px;
+    color: #fff;
+    text-transform: capitalize;
+    word-break: break-word;
+  
+    text-align: center;
+  }
+  
